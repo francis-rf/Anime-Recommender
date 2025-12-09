@@ -1,4 +1,52 @@
+# Python
 .venv/
-logs/
-ANIME_RECOMMENDER.egg-info/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment
 .env
+.env.local
+
+# Logs
+logs/
+*.log
+
+# ChromaDB
+chroma_db/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Internal Documentation (not for GitHub)
+project_architecture.html
+Explained.md
+
+# Test files
+test_*.py
+test.py
